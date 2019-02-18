@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Puzzel spil</title>
+  </head>
+
+  <body>
+    <!-- // her sættes urlen på det viste puzzel billeder -->
+    <input
+      id="imgUrl"
+      type="text"
+      value="https://30ontapdotcom.files.wordpress.com/2016/09/coffee-meme-1_large.jpg"
+    />
+
+    <!-- //her kan sætter man værdier for antal af ønskede puzzel brikker på
+    henholdsvis y og x aksen -->
+    <input id="Yinput" type="number" value="3" />
+    <input id="Xinput" type="number" value="3" />
+
+    <!-- // knap der loader vores billede så man kan lave puzzespillet -->
+    <button>Load Image</button>
+
+    <!-- her dispalyes vores puzzel spil når det vises i DOM'en -->
+    <div id="PuzzelContainer"></div>
+
+    <!-- //dette er vores holding container for vores puzzel billede når siden loades -->
+    <img src="" alt="" />
+
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+
+    <script src="puzzel.js"></script>
+  </body>
+</html>
