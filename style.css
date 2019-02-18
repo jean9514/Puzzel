@@ -1,9 +1,16 @@
 #PuzzelContainer {
   display: grid;
   background-color: beige;
-  /*            width :200px;*/
 }
 .piece {
+  outline: 0.5px solid grey;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.36);
+}
+
+.dropZone {
   outline: 0.5px solid grey;
 }
 
